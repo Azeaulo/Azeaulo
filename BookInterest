@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class JavaTestV2 {
+
+	public static void main(String[] args) {
+		Scanner a = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
+			
+			String name;
+			String genre;
+			int year;
+			int ans;
+			//String extra;
+			
+		System.out.println("What is the name of the book?");
+			name = a.nextLine();
+		
+		
+		System.out.println("What genre of book is it?");
+			genre = a.nextLine();
+		
+		System.out.println("What year did the book come out?");
+			year = a.nextInt();
+		
+		System.out.println("Want to tell us any interesting facts about the book? (Yes press 1, No press 0)");
+			ans = s.nextInt();
+			
+		if (ans == 1) {
+		System.out.print(". Lastly heres some extra facts: "+ s.nextLine());
+			}
+		
+		// Putting all the data into a full sentence
+		System.out.print("The book im interested in is "+ name);
+		System.out.print(", the genre this book falls under is "+ genre);
+		System.out.print(", it came out in "+ year);
+	
+		
+		
+						
+		a.close(); 
+		s.close();
+	}
+
+}
+			/*if (ans == 1) {
+			String facts = extra;
+			System.out.print(". Lastly heres some extra facts: " + facts);	
+			}*/
