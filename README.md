@@ -1,3 +1,4 @@
 I'm gonna use this account to document my progress using Java and potentially other coding languages
+XU '25
 
-I'm a High School Senior who is looking to earn a Computer Science degree.
+CS Major
